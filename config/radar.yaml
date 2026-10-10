@@ -1,0 +1,74 @@
+scoring:
+  weights:
+    growth_7d: 0.30
+    growth_30d: 0.20
+    acceleration: 0.15
+    technical_importance: 0.15
+    community_activity: 0.10
+    ecosystem_impact: 0.10
+  lifecycle_thresholds:
+    viral_daily_growth: 100
+    emerging_min_acceleration: 10
+    cooling_acceleration: -10
+discovery:
+  search_queries:
+    - "AI OR LLM"
+    - "agent OR \"AI agent\""
+    - "MCP OR RAG"
+    - "multimodal OR \"coding agent\""
+    - "memory OR \"AI infrastructure\""
+    - "\"local AI\" OR \"small model\" OR MoE"
+    - "topic:llm"
+    - "topic:ai"
+    - "topic:agent"
+    - "topic:ai-agent"
+    - "topic:mcp"
+    - "topic:rag"
+    - "topic:multimodal"
+    - "topic:large-language-model"
+  trending_url: "https://github.com/trending?since=weekly"
+  max_results_per_query: 30
+  max_candidates: 300
+classification:
+  domains:
+    Frontier Model: [frontier model, foundation model]
+    Open Model: [open weights, open-source model, language model]
+    Small Model: [small model, sLM, edge model]
+    MoE: [mixture of experts, moe]
+    Fine-tuning: [fine-tun, lora, qlora]
+    Multimodal: [multimodal]
+    Vision: [vision, image understanding]
+    Speech: [speech, audio, voice]
+    Video: [video]
+    Robotics: [robotics, robot]
+    AI Coding: [coding agent, code assistant, code generation]
+    Agent: [agent]
+    Agent Skills: [agent skill, skills]
+    Agent Memory: [agent memory, memory]
+    Agent Runtime: [agent runtime, runtime]
+    Agent Sandbox: [sandbox]
+    Agent Security: [agent security, prompt injection]
+    Context Engineering: [context engineering, context window]
+    RAG: [rag, retrieval augmented]
+    Knowledge System: [knowledge graph, knowledge base]
+    MCP: [model context protocol, mcp]
+    Multi-Agent: [multi-agent, multi agent]
+    Agent Organization: [agent organization, agent team]
+    Computer Use: [computer use, browser use, ui automation]
+    AI Search: [ai search, semantic search]
+    AI Research: [research agent, scientific discovery]
+    Local AI: [local llm, local ai, self-hosted]
+    Edge AI: [edge ai, on-device]
+    Enterprise AI: [enterprise ai, enterprise]
+    AI Infrastructure: [inference, serving, gpu, vector database]
+    AI Evaluation: [evaluation, benchmark, evals]
+    AI Governance: [governance, compliance]
+    AI Safety: [safety, alignment, guardrail]
+  layers:
+    L1 Model Layer: [model, llm, weights, foundation]
+    L2 Capability Layer: [vision, speech, multimodal, rag, fine-tun, embedding]
+    L3 Agent Layer: [agent, skill, memory, coding]
+    L4 Runtime Layer: [runtime, sandbox, inference, serving]
+    L5 Orchestration Layer: [orchestration, workflow, multi-agent]
+    L6 Application Layer: [application, app, assistant, search]
+    L7 Enterprise / AI Operating System Layer: [enterprise, operating system, governance, platform]

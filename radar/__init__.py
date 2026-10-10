@@ -1,0 +1,1 @@
+"""GitHub AI Trend Radar."""

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+
+# Machine-generated observations and reports
+data/
+reports/
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
