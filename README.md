@@ -1,5 +1,7 @@
 # GitHub AI Trend Radar
 
+[![Tests](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **看见 AI 开源项目如何成长。** GitHub AI Trend Radar 是一个开源研究工具：它从公开 GitHub 仓库发现 AI 项目，保存可复查的数据快照，并用中文报告和本地交互式驾驶舱呈现项目增长与技术方向。
 
 > 项目正在早期积累阶段。它展示可观察到的公开仓库数据，不声称覆盖 GitHub 上全部 AI 项目，也不会把缺失的历史数据伪装成增长。
