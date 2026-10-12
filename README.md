@@ -2,7 +2,9 @@
 
 [![Tests](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**看见 AI 开源项目如何成长。** GitHub AI Trend Radar 是一个开源研究工具：它从公开 GitHub 仓库发现 AI 项目，保存可复查的数据快照，并用中文报告和本地交互式驾驶舱呈现项目增长与技术方向。
+**看见 AI 开源项目如何成长。** GitHub AI Trend Radar 是一个开源研究工具：它从公开 GitHub 仓库发现 AI 项目，保存可复查的数据快照，并用中文报告和交互式驾驶舱呈现项目增长与技术方向。
+
+**先看结果：** [阅读最新公开趋势报告](https://ttbabala.github.io/github-ai-radar/) · [查看项目代码](https://github.com/ttbabala/github-ai-radar)
 
 > 项目正在早期积累阶段。它展示可观察到的公开仓库数据，不声称覆盖 GitHub 上全部 AI 项目，也不会把缺失的历史数据伪装成增长。
 
@@ -16,13 +18,17 @@
 - **浏览驾驶舱：** 在本机查看项目、历史曲线、分类和中文解读。
 - **复现分析：** 报告生成可以使用已保存的数据，不需要访问 GitHub。
 
-## 驾驶舱预览
+## 直接体验
+
+无需安装、配置 Token 或克隆仓库，先打开[最新公开趋势报告](https://ttbabala.github.io/github-ai-radar/)。报告由 GitHub Actions 定时采集公开仓库数据后发布；首次采集只建立真实基线，7 天和 30 天增长会在积累足够历史后逐步出现。若页面尚未部署，可在仓库 Actions 中手动运行 **Publish public trend report**；首次启用时请在仓库 **Settings → Pages** 将构建来源设为 **GitHub Actions**。
+
+想在本机交互探索时，再安装并启动仪表盘：
 
 运行 `python3 -m radar.dashboard` 后，在浏览器打开 <http://127.0.0.1:8765>。仪表盘从本机 `data/` 和 `reports/` 读取数据；没有历史记录时会明确显示“数据不可得”。
 
 ## 快速开始
 
-需要 Python 3.9 或更新版本。
+需要 Python 3.9 或更新版本。以下命令需要网络访问 GitHub；Token 可选。只想看结果的读者可直接阅读上面的公开报告。
 
 ```bash
 git clone https://github.com/ttbabala/github-ai-radar.git

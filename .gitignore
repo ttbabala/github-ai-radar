@@ -19,6 +19,7 @@ dist/
 # Machine-generated observations and reports
 data/
 reports/
+site/
 
 # macOS and editors
 .DS_Store
