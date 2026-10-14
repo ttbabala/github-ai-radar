@@ -7,7 +7,7 @@ name = "github-ai-radar"
 version = "0.1.0"
 description = "A repeatable GitHub AI ecosystem trend research agent"
 requires-python = ">=3.9"
-dependencies = ["PyYAML>=6.0"]
+dependencies = ["PyYAML>=6.0", "Markdown>=3.6,<4"]
 
 [project.optional-dependencies]
 test = ["pytest>=8"]

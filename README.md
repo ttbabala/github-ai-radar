@@ -1,14 +1,14 @@
 # GitHub AI Trend Radar
 
-[![Tests](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Tests](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ttbabala/github-ai-radar/actions/workflows/tests.yml) [![Public report](https://github.com/ttbabala/github-ai-radar/actions/workflows/publish-report.yml/badge.svg?branch=main)](https://github.com/ttbabala/github-ai-radar/actions/workflows/publish-report.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**看见 AI 开源项目如何成长。** GitHub AI Trend Radar 是一个开源研究工具：它从公开 GitHub 仓库发现 AI 项目，保存可复查的数据快照，并用中文报告和交互式驾驶舱呈现项目增长与技术方向。
+**面向持续跟踪 AI 开源生态的开发者与技术负责人。** GitHub AI Trend Radar 从公开 GitHub 仓库建立可复查的历史快照，帮助观察项目增长与技术方向；数据不足时明确标示，不推测趋势。
 
-**先看结果：** [阅读最新公开趋势报告](https://ttbabala.github.io/github-ai-radar/) · [查看项目代码](https://github.com/ttbabala/github-ai-radar)
+**先看结果：** [阅读最新公开报告](https://ttbabala.github.io/github-ai-radar/) · [查看历史报告](https://ttbabala.github.io/github-ai-radar/reports/) · [查看项目 / Star](https://github.com/ttbabala/github-ai-radar) · [反馈问题](https://github.com/ttbabala/github-ai-radar/issues/new)
 
 > 项目正在早期积累阶段。它展示可观察到的公开仓库数据，不声称覆盖 GitHub 上全部 AI 项目，也不会把缺失的历史数据伪装成增长。
 
-中文用户请从[中文使用手册](docs/使用手册.md)开始。English readers: this project is an experimental, reproducible research tool for exploring public GitHub AI repositories. Contributions and documentation improvements are welcome.
+适合需要持续发现、筛选和复查 AI 开源项目变化的开发者与技术负责人。English: a reproducible radar for tracking public AI repositories through real historical snapshots. Read the live report before installing; contributions and documentation improvements are welcome.
 
 ## 你可以用它做什么
 
@@ -20,7 +20,7 @@
 
 ## 直接体验
 
-无需安装、配置 Token 或克隆仓库，先打开[最新公开趋势报告](https://ttbabala.github.io/github-ai-radar/)。报告由 GitHub Actions 定时采集公开仓库数据后发布；首次采集只建立真实基线，7 天和 30 天增长会在积累足够历史后逐步出现。若页面尚未部署，可在仓库 Actions 中手动运行 **Publish public trend report**；首次启用时请在仓库 **Settings → Pages** 将构建来源设为 **GitHub Actions**。
+无需安装、配置 Token 或克隆仓库。最新报告会直接显示在[公开报告页](https://ttbabala.github.io/github-ai-radar/)，[历史报告归档](https://ttbabala.github.io/github-ai-radar/reports/)可以按日期复查。报告由 GitHub Actions 定时采集公开仓库数据后发布；首次采集只建立真实基线，7 天和 30 天增长会在积累足够历史后逐步出现。
 
 想在本机交互探索时，再安装并启动仪表盘：
 
